@@ -1,7 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdlib>
 #include "Bot.h"
-#define _CRT_SECURE_NO_WARNINGS
 
 int main() {
     const char* token = std::getenv("Token");
