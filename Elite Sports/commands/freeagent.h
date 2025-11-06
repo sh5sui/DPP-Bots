@@ -1,5 +1,5 @@
 #ifndef FREEAGENT_H
-#define FREEAGENT_h
+#define FREEAGENT_H
 
 #include <dpp/dpp.h>
 
