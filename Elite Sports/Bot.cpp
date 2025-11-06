@@ -4,6 +4,7 @@
 #include "commands/Userinfo.h"
 #include "commands/Suggest.h"
 #include "commands/Friendly.h"
+#include "commands/freeagent.h"
 
 Bot::Bot(const std::string& token) : bot(token, dpp::i_default_intents) {
     bot.on_log(dpp::utility::cout_logger());
@@ -23,4 +24,5 @@ void Bot::load_commands() {
     register_Userinfo(bot);
     register_Suggest(bot);
     register_Friendly(bot);
+    register_Freeagent(bot);
 }
